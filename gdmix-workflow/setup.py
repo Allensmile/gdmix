@@ -25,14 +25,14 @@ setup(
                  "Intended Audience :: Developers",
                  "License :: OSI Approved"],
     license='BSD-2-CLAUSE',
-    version='0.2.0',
+    version='0.2.1',
     package_dir={'': 'src'},
     packages=find_namespace_packages(where='src'),
     package_data={'': ['*.yaml']},
     include_package_data=True,
     install_requires=[
         "setuptools>=41.0.0",
-        # "gdmix-trainer==0.2.0",
+        "gdmix-trainer==0.2.1",
         "google-auth==1.21.1",
         "kfp==0.2.5"
     ],
